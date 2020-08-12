@@ -1,0 +1,30 @@
+{
+    "name": "bluedevq/arel-search",
+    "type": "library",
+    "description": "The custom search query feature",
+    "keywords": [
+        "arelsearch"
+    ],
+    "homepage": "",
+    "license": "",
+    "authors": [
+        {
+            "name": "Quy Nguyen Huu",
+            "email": "nguyenquy101192@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Bluedevq\\ArelSearch": "src/"
+        },
+        "files": [
+            "src/functions_include.php"
+        ]
+    },
+    "autoload-dev": {}
+}
